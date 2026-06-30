@@ -1,0 +1,68 @@
+{
+  "name": "@enterprisegrid/grid",
+  "version": "1.0.1",
+  "description": "High-performance, feature-rich React data grid with live playground capability.",
+  "type": "module",
+  "main": "dist/enterprisegrid.cjs",
+  "module": "dist/enterprisegrid.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/enterprisegrid.mjs",
+      "require": "./dist/enterprisegrid.cjs"
+    },
+    "./dist/enterprisegrid.css": "./dist/enterprisegrid.css",
+    "./style.css": "./dist/enterprisegrid.css",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "release": "node scripts/release.js"
+  },
+  "keywords": [
+    "react",
+    "data-grid",
+    "table",
+    "datatable",
+    "high-performance",
+    "calendar-view",
+    "map-view",
+    "reorderable",
+    "sparklines",
+    "heatmaps"
+  ],
+  "author": "EnterpriseGrid",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enterprisegrid/grid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/enterprisegrid/grid/issues"
+  },
+  "homepage": "https://github.com/enterprisegrid/grid#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "motion": ">=11.0.0",
+    "lucide-react": ">=0.300.0",
+    "leaflet": ">=1.9.0",
+    "react-leaflet": ">=4.0.0",
+    "react-big-calendar": ">=1.8.0",
+    "date-fns": ">=2.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "EnterpriseGrid",
+  "description": "EnterpriseGrid - The AI-Powered Interactive Data Grid for modern React applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
